@@ -36,14 +36,14 @@ class App extends React.Component {
                 <header>
                
                 <Navbar color="indigo" dark expand="md" scrolling>
-                    <NavbarBrand href="/Inicio">
+                    <NavbarBrand href="/">
                         <strong>Peixinho</strong>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav left>
                           <NavItem active>
-                              <NavLink  to="/Inicio">Inicio</NavLink>
+                              <NavLink  to="/">Inicio</NavLink>
                           </NavItem>
                           <NavItem>
                             <Dropdown>
@@ -75,7 +75,7 @@ class App extends React.Component {
                 </Navbar>
                 <div>
                 <Switch>
-                <Route exact path ='/Inicio' component={Inicio}/>
+                <Route exact path ='/' component={Inicio}/>
                 <Route  path ='/Pizzas' component={Pizzas}/>
                 <Route  path ='/Porcoes' component={Porcoes}/>
                 <Route  path ='/Pratos' component={Pratos}/>
