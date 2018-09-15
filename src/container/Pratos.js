@@ -15,7 +15,7 @@ const Pratos = () => (
                 <div className="col-lg-5 col-xl-4">
 
 
-                    <div className="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                    <div className="view overlay rounded z-depth-1-halgit sf mb-lg-0 mb-4">
                         <img className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Sample image" />
                         <a>
                             <div className="mask rgba-white-slight"></div>

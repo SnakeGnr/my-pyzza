@@ -42,7 +42,6 @@ render() {
                                                 <DropdownItem href="/Pratos">Pratos</DropdownItem>
                                                 <DropdownItem href="/Porcoes">Porções</DropdownItem>
                                                 <DropdownItem href="/Bebidas">Bebidas</DropdownItem>
-
                                             </DropdownMenu>
                                         </Dropdown>
                                     </NavItem>

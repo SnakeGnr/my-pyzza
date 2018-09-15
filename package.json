@@ -7,7 +7,9 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-native-hr": "^1.1.4",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "react-static": "^5.9.8",
+    "surge": "^0.20.1"
   },
   "scripts": {
     "start": "react-scripts start",

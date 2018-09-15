@@ -1,3 +1,12 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+p, h1,h4, h6, strong, a, button{
+  font-family: 'Libre Franklin', sans-serif;
+  
+}  
+
+
 .App {
   text-align: center;
 }
@@ -52,8 +61,7 @@
 
   .margeBot{
     
-    padding-bottom: 10px;
-
+    padding-bottom: 70px;
   }
 
   .jumbotron{
@@ -62,4 +70,58 @@
     padding-left: 40px;
 
 
+  }
+
+  .backgroundJumbo{
+
+    background-image: url("../src/img/frente.jpg");
+    background-position: center;
+  }
+
+ 
+  .line1{
+   width: 210px;
+   
+  }
+  .line2{
+    width: 75px;
+    
+   }
+   .line3{
+    width: 80px;
+    
+   }
+   .line4{
+    width: 80px;
+    
+   }
+
+   .margeCorpo{
+    padding-top: 30px;
+
+   }
+  
+  .pHead{
+   font-size: 20px;
+  }
+        
+ .pBody{
+  font-size: 20px;
+ }
+        
+        
+  .pFoot{
+  font-size: 8px;
+  }
+     
+  .colorLine{
+    background-color: #00BFFF!important;
+    
+  }
+
+  h1{
+    font-size: 60px
+  }
+  .margeCorpo p{
+    font-size:18px;
   }

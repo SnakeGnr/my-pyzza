@@ -17,30 +17,30 @@ const Footer = () => (
 
 
                         <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                            <h6 className="mb-0">Get connected with us on social networks!</h6>
+                            <h4 className="mb-0">Conecte-se a nossas redes sociais</h4>
                         </div>
 
                         <div className="col-md-6 col-lg-7 text-center text-md-right">
 
 
-                            <a className="fb-ic">
-                                <i className="fa fa-facebook white-text mr-4"> </i>
+                            <a className="fb-ic" href="https://www.facebook.com/restaurantepeixinho.net/" target="resource window">
+                                <i className="fa fa-facebook white-text mr-4 fa-2x"> </i>
                             </a>
 
                             <a className="tw-ic">
-                                <i className="fa fa-twitter white-text mr-4"> </i>
+                                <i className="fa fa-twitter white-text mr-4 fa-2x"> </i>
                             </a>
 
                             <a className="gplus-ic">
-                                <i className="fa fa-google-plus white-text mr-4"> </i>
+                                <i className="fa fa-google-plus white-text mr-4 fa-2x"> </i>
                             </a>
 
                             <a className="li-ic">
-                                <i className="fa fa-linkedin white-text mr-4"> </i>
+                                <i className="fa fa-linkedin white-text mr-4 fa-2x"> </i>
                             </a>
 
                             <a className="ins-ic">
-                                <i className="fa fa-instagram white-text"> </i>
+                                <i className="fa fa-instagram white-text fa-2x"> </i>
                             </a>
 
                         </div>
@@ -61,48 +61,46 @@ const Footer = () => (
 
                     <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-                        <h6 className="text-uppercase font-weight-bold">Company name</h6>
-                     
-                        <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+                        <h6 className="text-uppercase font-weight-bold">Horário de atendimento</h6>
+                        <hr class="colorLine accent-2 mb-4 mt-0 d-inline-block mx-auto line1" />
+                        <p>Almoço todos os dias dás 11:30hrs até as 15:00hrs </p>
+                         <p>
+                            Jantar de terça a sábado dás 18:30hrs até ás 23:00hrs.
+                        </p>
 
                     </div>
 
                     <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-
-                        <h6 className="text-uppercase font-weight-bold">Products</h6>
-                       
+                        <h6 className="text-uppercase font-weight-bold">Rodízios</h6>
+                        <hr class="colorLine accent-2 mb-4 mt-0 d-inline-block mx-auto line2" />
                         <p>
-                            <a href="#!">MDBootstrap</a>
+                            Rodízio de Peixe todos os dias no almoço e nos jantares de terça a sábado.
                         </p>
                         <p>
-                            <a href="#!">MDWordPress</a>
+                          Rodízio de Pizza de terça a sábado no jantar.
                         </p>
-                        <p>
-                            <a href="#!">BrandFlow</a>
-                        </p>
-                        <p>
-                            <a href="#!">Bootstrap Angular</a>
-                        </p>
+                      
+                    
 
                     </div>
 
                     <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                        <h6 className="text-uppercase font-weight-bold">Useful links</h6>
-                      
+                        <h6 className="text-uppercase font-weight-bold">Cardápio</h6>
+                        <hr class="colorLine accent-2 mb-4 mt-0 d-inline-block mx-auto line3" />
                         <p>
-                            <a href="#!">Your Account</a>
+                            <a href="#!">PIZZAS</a>
+                            
                         </p>
                         <p>
-                            <a href="#!">Become an Affiliate</a>
+                            <a href="#!">PRATOS</a>
                         </p>
                         <p>
-                            <a href="#!">Shipping Rates</a>
+                            <a href="#!">PORÇÕES</a>
                         </p>
                         <p>
-                            <a href="#!">Help</a>
+                            <a href="#!">BEBIDAS</a>
                         </p>
 
                     </div>
@@ -110,16 +108,17 @@ const Footer = () => (
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
 
-                        <h6 className="text-uppercase font-weight-bold">Contact</h6>
-                     
+                        <h6 className="text-uppercase font-weight-bold">Contato</h6>
+                        <hr class="colorLine accent-2 mb-4 mt-0 d-inline-block mx-auto line4" />
                         <p>
-                            <i className="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                            <i className="fa fa-home mr-3"></i> Rua Frei Orlando, 690 
+                                            Jardim Social - Curitiba</p>
                         <p>
-                            <i className="fa fa-envelope mr-3"></i> info@example.com</p>
+                            <i className="fa fa-envelope mr-3"></i>restpeixinho@gmail.com</p>
                         <p>
-                            <i className="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                            <i className="fa fa-phone mr-3"></i> (41) 3264-4278</p>
                         <p>
-                            <i className="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                            <i className="fa fa-mobile-phone mr-3"></i> (41) 99792-8558</p>
 
                     </div>
 
@@ -128,7 +127,8 @@ const Footer = () => (
             </div>
 
             <div className="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a> -
+      <a href="https://github.com/SnakeGnr/"> @Dev</a>
             </div>
 
 
