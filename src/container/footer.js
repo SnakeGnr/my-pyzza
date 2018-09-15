@@ -127,8 +127,8 @@ const Footer = () => (
             </div>
 
             <div className="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a> -
-      <a href="https://github.com/SnakeGnr/"> @Dev</a>
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/" target="resource window"> MDBootstrap.com</a> -
+      <a href="https://github.com/SnakeGnr/" target="resource window"> @Dev</a>
             </div>
 
 
